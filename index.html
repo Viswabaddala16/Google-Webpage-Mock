@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Google Webpage</title>
+</head>
+<body>
+  <header class ="site-header">
+    <div class ="container header-inner">
+      <nav class ="nav-left" arial-label ="Main navigation">
+        <a href="#about">About</a>
+        <a href="#search">Search</a>
+      </nav>
+      <nav class ="nav-right" aria-label ="User links">
+        <a href="#gmail">Gmail</a>
+        <a href="#image">Images</a>
+        <button class ="app-grid" title ="Apps" ></button>
+        <button type ="button" class ="signin">Signin</button>
+      </nav>
+    </div>
+  </header>
+  <main class="main-area">
+    <div class="container center-column">
+      
+      <h1 class="logo" >
+        <span class="g">G</span>
+        <span class="o1">o</span>
+        <span class="o2">o</span>
+        <span class="g1">g</span>
+        <span class="l">l</span>
+        <span class="e">e</span>
+      </h1>
+
+      <form class="search-form" action="#" method="get" onsubmit="return false" >
+        <label for="q" class="visually-hidden">Search</label>
+        <div class="search-box">
+          <button class="icon search-icon" tabindex="-1"><img src="./assets/search-icon.png"></button>
+          <input class="q" id="q" type="search" placeholder="Search Google or type a URL" autocomplete="off" arial-label="search">
+          <button class="icon icon-mic" aria-label="Voice Search"><img src="./assets/mike-icon.png"></button>
+
+        </div>
+        <div class="buttons">
+          <button type="submit" class="btn">Google Search</button>
+          <button type="button" class="btn">I'm Feeling Lucky</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
+      </div>
+      <div class="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>
